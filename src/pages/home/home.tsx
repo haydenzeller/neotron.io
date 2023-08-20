@@ -10,7 +10,7 @@ function Home() {
         const addr = await axios.get("https://api.ipify.org/?format=json");
         setIP(addr.data.ip);
 
-        const info = await axios.get("https://api.ipgeolocation.io/ipgeo?apiKey=ccb013f1fb97475e94dcbcdb2192ca7d&ip=" + addr);
+        const info = await axios.get("https://api.ipgeolocation.io/ipgeo?apiKey=ccb013f1fb97475e94dcbcdb2192ca7d&ip=");
         setLocation(info.data.city);
 
     };
