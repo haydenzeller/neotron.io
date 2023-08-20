@@ -20,12 +20,12 @@ function Home() {
 
     return (
         <div className="home">
-            <div className="userInfo">
-                <p>Hello, {ip}, How is the weather in {location}?</p>
-            </div>
             <h1>NEOTRON.IO</h1>
-            <h2>If you don't know what this site is for, you should leave. Now.</h2>
-            <h3>If you know what this site is for, you know what to do.</h3>
+            <h2>If you know what this site is actually for than you know what to do. If not, then just look around I guess </h2>
+            <div className="apiStuff">
+                <p>Hello {ip}</p>
+                <p>How's the weather in {location}?</p>
+            </div>
         </div>
     )
 }
