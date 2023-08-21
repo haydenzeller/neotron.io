@@ -21,10 +21,12 @@ function Home() {
 
     return (
         <div className="home">
-            <h1>NEOTRON.IO</h1>
+            <div className="logo">
+                <h1>NEOTRON.IO</h1>
+            </div>
             <h2>If you know what this site is actually for than you know what to do. If not, then just look around I guess </h2>
-            <div className="apiStuff">
-                <p>Hello {ip}, from {location}</p>
+            <div className="api">
+                <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span></p>
             </div>
         </div>
     )
