@@ -24,8 +24,7 @@ function Home() {
             <h1>NEOTRON.IO</h1>
             <h2>If you know what this site is actually for than you know what to do. If not, then just look around I guess </h2>
             <div className="apiStuff">
-                <p>Hello {ip}</p>
-                <p>How's the weather in {location}?</p>
+                <p>Hello {ip}, from {location}</p>
             </div>
         </div>
     )
