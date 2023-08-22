@@ -13,7 +13,10 @@ function Home() {
         const info = await axios.get("https://freeipapi.com/api/json/");
         setLocation(info.data.cityName);
 
-        axios.post("https://hooks.neotron.io/logip", addr)
+        const data = new URLSearchParams();
+        data.append('input', addr.data.ip);
+
+        axios.post('https://hooks.neotron.io/logip', data)
 
     };
     useEffect(() => {
