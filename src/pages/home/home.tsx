@@ -29,7 +29,7 @@ function Home() {
             <div className="logo">
                 <h1>NEOTRON.IO</h1>
             </div>
-            <h2>If you know what this site is actually used for than you already know what to do. If you don't know why your here, leave now.</h2>
+            <h2>If you know what this site is actually used for than you already know what to do. If you don't know why your here, leave.</h2>
             <div className="api">
                 <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span></p>
             </div>
