@@ -1,9 +1,13 @@
 import { useState, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import './VideoDownloader.scss';
 
 
 
 function VideoDownloader() {
+    <Helmet>
+        <script async={true} data-cfasync="false" src="//overthrowslash.com/7f75d17afbda3672c64ad6ba8c9d9487/invoke.js"></script>
+    </Helmet>
   // Use null as the initial value for both variables
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
   const [downloadedVideoUrl, setDownloadedVideoUrl] = useState<string | null>(null);
@@ -59,9 +63,9 @@ function VideoDownloader() {
             <video width="400" controls>
                 <source src={downloadedVideoUrl} type="video/mp4" />
             </video>           
-            </div>    
+                    </div>    
         )}
-
+        <div id="container-7f75d17afbda3672c64ad6ba8c9d9487"></div>
     </div>
   );
 }
