@@ -7,6 +7,7 @@ import './VideoDownloader.scss';
 function VideoDownloader() {
     <Helmet>
         <script async={true} data-cfasync="false" src="//overthrowslash.com/7f75d17afbda3672c64ad6ba8c9d9487/invoke.js"></script>
+        <title>NEOTRON - Downloader</title>
     </Helmet>
   // Use null as the initial value for both variables
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
