@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import './home.scss'
 import axios from 'axios'
+import { Link } from "react-router-dom";
 
 
 function Home() {
@@ -32,6 +33,11 @@ function Home() {
             <h2>If you know what this site is actually used for than you already know what to do. If you don't know why your here, leave.</h2>
             <div className="api">
                 <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span></p>
+                <br />
+                <Link to="/videodownloader">
+                    <button>Video Downloader</button>
+                </Link>
+
             </div>
         </div>
     )
