@@ -71,6 +71,7 @@ function VideoDownloader() {
         )}
         <br/>
         {/* container for ads */}
+        <h2 id="IgnoreAds">- Ignore These Ads -</h2>
         <div id="container-7f75d17afbda3672c64ad6ba8c9d9487"></div>
     </div>
   );
