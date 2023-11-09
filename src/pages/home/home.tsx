@@ -7,21 +7,16 @@ import { Link } from "react-router-dom";
 function Home() {
     const [ip, setIP] = useState("");
     const [location, setLocation] = useState("");
-    const getData = async () => {
+    const getIp = async () => {
         const addr = await axios.get("https://api.ipify.org/?format=json");
         setIP(addr.data.ip);
 
         const info = await axios.get("https://freeipapi.com/api/json/");
         setLocation(info.data.cityName);
 
-        const data = new URLSearchParams();
-        data.append('input', addr.data.ip);
-
-        axios.post('https://hooks.neotron.io/logip', data)
-
     };
     useEffect(() => {
-    getData();
+    getIp();
     }, []);
 
 
