@@ -42,6 +42,7 @@ function VideoDownloader() {
     
     <div id="VideoDownloader">
       <Helmet>
+        {/* header script for ads */}
         <script async={true} data-cfasync="false" src="//overthrowslash.com/7f75d17afbda3672c64ad6ba8c9d9487/invoke.js"></script>
         <title>NEOTRON - Downloader</title>
       </Helmet>
@@ -69,6 +70,7 @@ function VideoDownloader() {
                     </div>    
         )}
         <br/>
+        {/* container for ads */}
         <div id="container-7f75d17afbda3672c64ad6ba8c9d9487"></div>
     </div>
   );
