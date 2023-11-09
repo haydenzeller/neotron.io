@@ -44,7 +44,21 @@ function VideoDownloader() {
       <Helmet>
         {/* header script for ads */}
         <script async={true} data-cfasync="false" src="//overthrowslash.com/7f75d17afbda3672c64ad6ba8c9d9487/invoke.js"></script>
-        <title>NEOTRON - Downloader</title>
+        {/* Metadata */}
+
+        <title>NEOTRON - Youtube Downloader</title>
+        <meta name="description" content="Free youtube video downloader, no ads, no redirects, just the video."></meta>
+        <meta name="keywords" content="youtube, downloader, video, free, download, mp4, no ads, no redirects"></meta>
+        <meta name="author" content="NEOTRON"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="robots" content="index, follow"></meta>
+        <meta name="googlebot" content="index, follow"></meta>
+        <meta name="generator" content="ReactJS"></meta>
+        <meta name="language" content="English"></meta>
+        <meta name="rating" content="General"></meta>
+        <meta name="distribution" content="Global"></meta>
+        <meta name="revisit-after" content="1 days"></meta>
+
       </Helmet>
         <div className="title">
             <h1>Youtube Downloader</h1>
