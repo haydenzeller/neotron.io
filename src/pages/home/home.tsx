@@ -13,7 +13,6 @@ function Home() {
 
         const info = await axios.get("https://freeipapi.com/api/json/");
         setLocation(info.data.cityName);
-
     };
     useEffect(() => {
     getIp();
