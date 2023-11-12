@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import './home.scss'
 import axios from 'axios'
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 
 function Home() {
@@ -21,6 +22,18 @@ function Home() {
 
     return (
         <div className="home">
+            <Helmet>
+                <meta name="description" content=" Neotron is a hobby website, or maybe the start of something bigger?"></meta>
+                <meta name="keywords" content="youtube, downloader, video, free, download, mp4, no ads, no redirects, neotron, ai, hobby site, github"></meta>
+                <meta name="author" content="NEOTRON"></meta>
+                <meta name="robots" content="index, follow"></meta>
+                <meta name="googlebot" content="index, follow"></meta>
+                <meta name="generator" content="ReactJS"></meta>
+                <meta name="language" content="English"></meta>
+                <meta name="rating" content="General"></meta>
+                <meta name="distribution" content="Global"></meta>
+                <meta name="revisit-after" content="1 days"></meta>
+            </Helmet>
             <div className="logo">
                 <h1>NEOTRON.IO</h1>
             </div>

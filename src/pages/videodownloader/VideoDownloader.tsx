@@ -42,10 +42,6 @@ function VideoDownloader() {
     
     <div id="VideoDownloader">
       <Helmet>
-        {/* header script for ads */}
-        <script async={true} data-cfasync="false" src="//overthrowslash.com/7f75d17afbda3672c64ad6ba8c9d9487/invoke.js"></script>
-        {/* Metadata */}
-
         <title>NEOTRON - Youtube Downloader</title>
         <meta name="description" content="Free youtube video downloader, no ads, no redirects, just the video."></meta>
         <meta name="keywords" content="youtube, downloader, video, free, download, mp4, no ads, no redirects"></meta>
@@ -83,10 +79,6 @@ function VideoDownloader() {
             </video>           
                     </div>    
         )}
-        <br/>
-        {/* container for ads */}
-        <h2 id="IgnoreAds">- Ignore These Ads -</h2>
-        <div id="container-7f75d17afbda3672c64ad6ba8c9d9487"></div>
     </div>
   );
 }
