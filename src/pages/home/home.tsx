@@ -41,9 +41,10 @@ function Home() {
             <div className="api">
                 <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span></p>
                 <br />
-                <Link to="/search.neotron.io">
+                <a href="https://search.neotron.io">
                     <button>Secure Search Engine</button>
-                </Link>
+                </a>
+                <br />
                 <Link to="/videodownloader">
                     <button>Video Downloader</button>
                 </Link>
