@@ -39,11 +39,12 @@ function Home() {
             </div>
             <h2>If you know what this site is actually used for than you already know what to do. If you don't know why your here, look around if you want.</h2>
             <div className="api">
-                <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span></p>
+                <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span> ( if this is correct, use a VPN! )</p>
                 <br />
                 <a href="https://search.neotron.io">
                     <button>Secure Search Engine</button>
                 </a>
+                <br />
                 <br />
                 <Link to="/videodownloader">
                     <button>Video Downloader</button>
