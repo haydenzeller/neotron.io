@@ -37,13 +37,17 @@ function Home() {
             <div className="logo">
                 <h1>NEOTRON.IO</h1>
             </div>
-            <h2>If you know what this site is actually used for than you already know what to do. If you don't know why your here, leave.</h2>
+            <h2>If you know what this site is actually used for than you already know what to do. If you don't know why your here, look around if you want.</h2>
             <div className="api">
                 <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span></p>
                 <br />
+                <Link to="/search.neotron.io">
+                    <button>Secure Search Engine</button>
+                </Link>
                 <Link to="/videodownloader">
                     <button>Video Downloader</button>
                 </Link>
+
 
             </div>
         </div>
