@@ -20,28 +20,102 @@
         }
     }
     h2 {
-        font-size: 4vw;
+        font-size: 3vw;
         @media screen and (min-width: 480px) and (max-width: 767px) {
-            font-size: 2vw;
-        }
-        @media screen and (min-width: 768px) and (max-width: 1023px) {
-            font-size: 1.75vw;
-        }
-        @media screen and (min-width: 1024px) {
             font-size: 1.5vw;
         }
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            font-size: 1.25vw;
+        }
+        @media screen and (min-width: 1024px) {
+            font-size: 1vw;
+        }
+
     }
 
     .api {
-        font-size: 4vw;
+        font-size: 3vw;
         @media screen and (min-width: 480px) and (max-width: 767px) {
-            font-size: 2vw;
-        }
-        @media screen and (min-width: 768px) and (max-width: 1023px) {
-            font-size: 1.75vw;
-        }
-        @media screen and (min-width: 1024px) {
             font-size: 1.5vw;
         }
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            font-size: 1.25vw;
+        }
+        @media screen and (min-width: 1024px) {
+            font-size: 1vw;
+        }
+
+   
+
+    }
+    .links {
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+        button {
+            margin: 1vh;
+            width: 20vw;
+            height: 5vh;
+            font-size: 1vw;
+            @media screen and (min-width: 480px) and (max-width: 767px) {
+                width: 30vw;
+                height: 10vh;
+                font-size: 2vw;
+            }
+            @media screen and (min-width: 768px) and (max-width: 1023px) {
+                width: 25vw;
+                height: 7.5vh;
+                font-size: 1.5vw;
+            }
+            @media screen and (min-width: 1024px) {
+                width: 20vw;
+                height: 5vh;
+                font-size: 1vw;
+            }
+        }
+        @media screen and (min-width: 480px) and (max-width: 767px) {
+            button {
+                width: 30vw;
+                height: 10vh;
+                font-size: 2vw;
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            button {
+                width: 25vw;
+                height: 7.5vh;
+                font-size: 1.5vw;
+            }
+        }
+        @media screen and (min-width: 1024px) {
+            button {
+                width: 20vw;
+                height: 5vh;
+                font-size: 1vw;
+            }
+        }
+
+
+    }
+
+    .ServerInfo {
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        @media screen and (min-width: 480px) and (max-width: 767px) {
+            font-size: 1.5vw;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            font-size: 1.25vw;
+        }
+        @media screen and (min-width: 1024px) {
+            font-size: 1vw;
+        }
+
+
     }
 }
