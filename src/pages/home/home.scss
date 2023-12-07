@@ -162,4 +162,11 @@
             font-size: 4vw;
         }
     }
+
+    .serverStatus {
+        color: rgb(0, 255, 0);
+        // remove underline from .Underline
+        text-decoration: none;
+        
+    }
 }

@@ -62,7 +62,7 @@ function Home() {
                 </div>
                 <div className="ServerInfo">
                     <div className="left">
-                        <h2 className="Underline">Server #1</h2>
+                        <h2 className="Underline">Server #1 - <span className="serverStatus">ONLINE</span></h2>
                         <p>OS: <span className="highlight">Ubuntu LTS / Kali Linux / Windows 11</span></p>
                         <p>CPU: <span className="highlight">Ryzen 9 7900x</span></p>
                         <p>RAM: <span className="highlight">32GB DDR5</span></p>
@@ -72,7 +72,7 @@ function Home() {
                         <p>Location: <span className="highlight">Canada</span></p>
                     </div>
                     <div className="right">
-                        <h2 className="Underline">Server #2</h2>
+                        <h2 className="Underline">Server #2 - <span className="serverStatus">ONLINE</span></h2>
                         <p>OS Hypervisor: <span className="highlight">ProxmoxVE</span></p>
                         <p>CPU: <span className="highlight">Intel Core I7-7700</span></p>
                         <p>RAM: <span className="highlight">64GB DDR4</span></p>
