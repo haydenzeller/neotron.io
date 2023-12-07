@@ -48,7 +48,7 @@ function Home() {
                     <p>RAM: <span className="highlight">64GB DDR4</span></p>
                     <p>Storage: <span className="highlight">12TB NVME</span></p>
                     <p>Network: <span className="highlight">3.5Gbps</span></p>
-                    <p>Location: <span className="highlight">Canada</span></p>         
+                    <p>Location: <span className="highlight">Canada</span></p>  
                 </div>
                 <div className="links">
                     <h2><span className="Underline">Services</span></h2>

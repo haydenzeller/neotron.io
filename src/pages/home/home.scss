@@ -44,16 +44,12 @@
         @media screen and (min-width: 1024px) {
             font-size: 1vw;
         }
-
-   
-
     }
     .links {
         display: flexbox;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 5vh;
         button {
             margin: 1vh;
             width: 20vw;
