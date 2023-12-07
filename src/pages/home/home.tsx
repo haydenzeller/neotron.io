@@ -41,30 +41,40 @@ function Home() {
                 <div className="api">
                     <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span><br/>( if this is correct, use a VPN! )</p>
                 </div>
-                <div className="ServerInfo">
-                    <h2 className="Underline">Server Info</h2>
-                    <p>OS Hypervisor: <span className="highlight">ProxmoxVE</span></p>
-                    <p>CPU: <span className="highlight">Intel Core I7-7700</span></p>
-                    <p>RAM: <span className="highlight">64GB DDR4</span></p>
-                    <p>Storage: <span className="highlight">12TB NVME</span></p>
-                    <p>Network: <span className="highlight">3.5Gbps</span></p>
-                    <p>Location: <span className="highlight">Canada</span></p>  
-                </div>
                 <div className="links">
                     <h2><span className="Underline">Services</span></h2>
-                    <a href="https://status.neotron.io">Click here for uptime status</a>
-                    <br />
+                    <p><a href="https://status.neotron.io">Click here for uptime status</a></p>
                     <a href="https://search.neotron.io">
                         <button>Secure Search Engine</button>
                     </a>
-                    <br />
                     <Link to="/videodownloader">
                         <button>Video Downloader</button>
                     </Link>
-                    <br />
                     <a href="https://flix.neotron.io">
                         <button>The Lucky Few</button>
                     </a>
+                </div>
+                <div className="ServerInfo">
+                    <div className="left">
+                        <h2 className="Underline">Server #1</h2>
+                        <p>OS: <span className="highlight">Ubuntu LTS / Kali Linux / Windows 11</span></p>
+                        <p>CPU: <span className="highlight">Ryzen 9 7900x</span></p>
+                        <p>RAM: <span className="highlight">32GB DDR5</span></p>
+                        <p>GPU: <span className="highlight">NVIDIA RTX 3070Ti</span></p>
+                        <p>Storage: <span className="highlight">2TB M.2 NVME</span></p>
+                        <p>Network: <span className="highlight">3.5Gbps</span></p>
+                        <p>Location: <span className="highlight">Canada</span></p>
+                    </div>
+                    <div className="right">
+                        <h2 className="Underline">Server #2</h2>
+                        <p>OS Hypervisor: <span className="highlight">ProxmoxVE</span></p>
+                        <p>CPU: <span className="highlight">Intel Core I7-7700</span></p>
+                        <p>RAM: <span className="highlight">64GB DDR4</span></p>
+                        <p>GPU: <span className="highlight">NVIDIA GTX 1060</span></p>
+                        <p>Storage: <span className="highlight">12TB M.2 NVME</span></p>
+                        <p>Network: <span className="highlight">3.5Gbps</span></p>
+                        <p>Location: <span className="highlight">Canada</span></p>  
+                    </div>
                 </div>
             </div>
         </HelmetProvider>

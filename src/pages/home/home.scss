@@ -47,61 +47,111 @@
     }
     .links {
         display: flexbox;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        button {
-            margin: 1vh;
-            width: 20vw;
-            height: 5vh;
-            font-size: 1vw;
+        font-size: 1.1vw;
+        h2 {
+        
             @media screen and (min-width: 480px) and (max-width: 767px) {
-                width: 30vw;
-                height: 10vh;
-                font-size: 2vw;
+                font-size: 1.5vw;
             }
             @media screen and (min-width: 768px) and (max-width: 1023px) {
-                width: 25vw;
-                height: 7.5vh;
-                font-size: 1.5vw;
+                font-size: 1.25vw;
             }
             @media screen and (min-width: 1024px) {
-                width: 20vw;
-                height: 5vh;
                 font-size: 1vw;
             }
         }
-        @media screen and (min-width: 480px) and (max-width: 767px) {
-            button {
-                width: 30vw;
-                height: 10vh;
-                font-size: 2vw;
-            }
-        }
-        @media screen and (min-width: 768px) and (max-width: 1023px) {
-            button {
-                width: 25vw;
-                height: 7.5vh;
+        button {
+            //marign for only left and right;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            font-size: 2vw;
+            @media screen and (min-width: 480px) and (max-width: 767px) {
                 font-size: 1.5vw;
-            }
-        }
-        @media screen and (min-width: 1024px) {
-            button {
                 width: 20vw;
-                height: 5vh;
+            }
+            @media screen and (min-width: 768px) and (max-width: 1023px) {
+                font-size: 1.25vw;
+                width: 20vw;
+            }
+            @media screen and (min-width: 1024px) {
                 font-size: 1vw;
+                width: 15vw;
             }
         }
-
-
     }
 
     .ServerInfo {
         display: flexbox;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        font-size: 3vw;
+        @media screen and (max-width: 480px) {
+            // center everything
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        @media screen and (min-width: 480px) and (max-width: 767px) {
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            margin-left: 20vw;
+            margin-right: 20vw;
+        }
+        @media screen and (min-width: 1024px) {
+            margin-left: 30vw;
+            margin-right: 30vw;
+        }
+        .left {
+            text-align: left;
+            font-size: 2vw;
+            @media screen and (max-width: 480px) {
+                text-align: center;
+                font-size: 1.5vw;
+            }
+            @media screen and (min-width: 480px) and (max-width: 767px) {
+                text-align: center;
+                font-size: 1.5vw;
+            }
+            @media screen and (min-width: 768px) and (max-width: 1023px) {
+                font-size: 1.25vw;
+                float: left;
+
+            }
+            @media screen and (min-width: 1024px) {
+                font-size: 1vw;
+                float: left;
+
+            }
+        }
+        .right {
+            text-align: left;
+            font-size: 2vw;
+            @media screen and (max-width: 480px) {
+                text-align: center;
+                font-size: 1.5vw;
+            }
+            @media screen and (min-width: 480px) and (max-width: 767px) {
+                text-align: center;
+                font-size: 1.5vw;
+            }
+            @media screen and (min-width: 768px) and (max-width: 1023px) {
+                float: right;
+
+                font-size: 1.25vw;
+            }
+            @media screen and (min-width: 1024px) {
+                float: right;
+
+                font-size: 1vw;
+            }
+        }
+
         @media screen and (min-width: 480px) and (max-width: 767px) {
             font-size: 1.5vw;
         }
@@ -111,6 +161,7 @@
         @media screen and (min-width: 1024px) {
             font-size: 1vw;
         }
+
     }
 
     .Underline {
