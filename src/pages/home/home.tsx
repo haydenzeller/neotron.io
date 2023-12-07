@@ -38,21 +38,22 @@ function Home() {
                 <div className="logo">
                     <h1>NEOTRON.IO</h1>
                 </div>
-                <h2>If you know what this site is actually used for than you already know what to do.<br/>If you don't know why your here, look around if you want.</h2>
                 <div className="api">
                     <p>Hello <span className="highlight">{ip}</span> from <span className="highlight">{location}</span><br/>( if this is correct, use a VPN! )</p>
                 </div>
                 <div className="ServerInfo">
-                    <h2>Server Info</h2>
+                    <h2 className="Underline">Server Info</h2>
                     <p>OS Hypervisor: <span className="highlight">ProxmoxVE</span></p>
-                    <p>CPU: <span className="highlight">Intel Core I7 7700</span></p>
+                    <p>CPU: <span className="highlight">Intel Core I7-7700</span></p>
                     <p>RAM: <span className="highlight">64GB DDR4</span></p>
                     <p>Storage: <span className="highlight">12TB NVME</span></p>
                     <p>Network: <span className="highlight">3.5Gbps</span></p>
                     <p>Location: <span className="highlight">Canada</span></p>         
                 </div>
                 <div className="links">
-                    <h2>Services</h2>
+                    <h2><span className="Underline">Services</span></h2>
+                    <a href="https://status.neotron.io">Click here for uptime status</a>
+                    <br />
                     <a href="https://search.neotron.io">
                         <button>Secure Search Engine</button>
                     </a>
