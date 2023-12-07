@@ -67,7 +67,7 @@ function Home() {
                         <p>CPU: <span className="highlight">Ryzen 9 7900x</span></p>
                         <p>RAM: <span className="highlight">32GB DDR5</span></p>
                         <p>GPU: <span className="highlight">NVIDIA RTX 3070Ti</span></p>
-                        <p>Storage: <span className="highlight">2TB M.2 NVME</span></p>
+                        <p>Storage: <span className="highlight">3TB M.2 NVME</span></p>
                         <p>Network: <span className="highlight">3.5Gbps</span></p>
                         <p>Location: <span className="highlight">Canada</span></p>
                     </div>
