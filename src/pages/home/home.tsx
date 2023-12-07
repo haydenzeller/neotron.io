@@ -44,16 +44,20 @@ function Home() {
                 <div className="links">
                     <h2><span className="Underline">Services</span></h2>
                     <p><a href="https://status.neotron.io">Click here for uptime status</a></p>
-                    <a href="https://search.neotron.io">
-                        <button>Secure Search Engine</button>
+                    <a href="https://search.neotron.io" target="_blank">
+                        <button>SearXNG ( Metasearch Engine )</button>
                     </a>
                     <br />
                     <Link to="/videodownloader">
-                        <button>Video Downloader</button>
+                        <button>Youtube Downloader</button>
                     </Link>
                     <br />
+                    <a href="" target="_blank">
+                        <button>Invidious ( In progress )</button>
+                    </a>
+                    <br />
                     <a href="https://flix.neotron.io">
-                        <button>The Lucky Few</button>
+                        <button>Media Server ( Restricted Access )</button>
                     </a>
                 </div>
                 <div className="ServerInfo">

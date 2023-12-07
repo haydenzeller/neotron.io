@@ -67,19 +67,19 @@
             //mobile
             @media screen and (max-width: 480px) {
                 font-size: 3vw;
-                width: 50vw;
+                width: 60vw;
             }
             @media screen and (min-width: 480px) and (max-width: 767px) {
                 font-size: 2vw;
-                width: 27vw;
+                width: 40vw;
             }
             @media screen and (min-width: 768px) and (max-width: 1023px) {
                 font-size: 1.25vw;
-                width: 20vw;
+                width: 25vw;
             }
             @media screen and (min-width: 1024px) {
                 font-size: 1vw;
-                width: 15vw;
+                width: 20vw;
             }
         }
     }
