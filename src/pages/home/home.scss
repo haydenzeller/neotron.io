@@ -51,26 +51,27 @@
         justify-content: center;
         align-items: center;
         font-size: 1.1vw;
-        h2 {
-        
-            @media screen and (min-width: 480px) and (max-width: 767px) {
-                font-size: 1.5vw;
-            }
-            @media screen and (min-width: 768px) and (max-width: 1023px) {
-                font-size: 1.25vw;
-            }
-            @media screen and (min-width: 1024px) {
-                font-size: 1vw;
-            }
+        @media screen and (max-width: 480px) {
+            // center everything
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 3vw;
         }
         button {
             //marign for only left and right;
             margin-left: 1vw;
             margin-right: 1vw;
+            margin-bottom: 1vw;
             font-size: 2vw;
+            //mobile
+            @media screen and (max-width: 480px) {
+                font-size: 3vw;
+                width: 50vw;
+            }
             @media screen and (min-width: 480px) and (max-width: 767px) {
-                font-size: 1.5vw;
-                width: 20vw;
+                font-size: 2vw;
+                width: 27vw;
             }
             @media screen and (min-width: 768px) and (max-width: 1023px) {
                 font-size: 1.25vw;
@@ -88,12 +89,12 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        font-size: 1vw;
         @media screen and (max-width: 480px) {
             // center everything
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
         }
         @media screen and (min-width: 480px) and (max-width: 767px) {
             margin-left: 10vw;
@@ -112,7 +113,7 @@
             font-size: 2vw;
             @media screen and (max-width: 480px) {
                 text-align: center;
-                font-size: 1.5vw;
+                font-size: 3vw;
             }
             @media screen and (min-width: 480px) and (max-width: 767px) {
                 text-align: center;
@@ -134,7 +135,7 @@
             font-size: 2vw;
             @media screen and (max-width: 480px) {
                 text-align: center;
-                font-size: 1.5vw;
+                font-size: 3vw;
             }
             @media screen and (min-width: 480px) and (max-width: 767px) {
                 text-align: center;
@@ -151,21 +152,14 @@
                 font-size: 1vw;
             }
         }
-
-        @media screen and (min-width: 480px) and (max-width: 767px) {
-            font-size: 1.5vw;
-        }
-        @media screen and (min-width: 768px) and (max-width: 1023px) {
-            font-size: 1.25vw;
-        }
-        @media screen and (min-width: 1024px) {
-            font-size: 1vw;
-        }
-
     }
 
     .Underline {
         text-decoration: underline;
         font-family: 'Orbitron', sans-serif;
+        //mobile font size
+        @media screen and (max-width: 480px) {
+            font-size: 4vw;
+        }
     }
 }

@@ -47,9 +47,11 @@ function Home() {
                     <a href="https://search.neotron.io">
                         <button>Secure Search Engine</button>
                     </a>
+                    <br />
                     <Link to="/videodownloader">
                         <button>Video Downloader</button>
                     </Link>
+                    <br />
                     <a href="https://flix.neotron.io">
                         <button>The Lucky Few</button>
                     </a>
