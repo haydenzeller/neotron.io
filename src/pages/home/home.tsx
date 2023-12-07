@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import './home.scss'
 import axios from 'axios'
-import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 
@@ -48,15 +47,11 @@ function Home() {
                         <button>SearXNG ( Metasearch Engine )</button>
                     </a>
                     <br />
-                    <Link to="/videodownloader">
-                        <button>Youtube Downloader</button>
-                    </Link>
-                    <br />
-                    <a href="" target="_blank">
-                        <button>Invidious ( In progress )</button>
+                    <a href="https://yt.neotron.io" target="_blank">
+                        <button>Invidious ( Youtube Client )</button>
                     </a>
                     <br />
-                    <a href="https://flix.neotron.io">
+                    <a href="https://flix.neotron.io" target="_blank">
                         <button>Media Server ( Restricted Access )</button>
                     </a>
                 </div>
