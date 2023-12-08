@@ -46,17 +46,17 @@ function Home() {
                     <a href="https://search.neotron.io" target="_blank">
                         <button>SearXNG ( Metasearch Engine )</button> 
                     </a>
-                    <img className="StatusBadge"  src="http://192.168.2.31:3001/api/badge/1/status"></img>
+                    <img className="StatusBadge"  src="https://status.neotron.io/api/badge/1/status"></img>
                     <br />
                     <a href="https://yt.neotron.io" target="_blank">
                         <button>Invidious ( Youtube Client )</button>
                     </a>
-                    <img className="StatusBadge"  src="http://192.168.2.31:3001/api/badge/6/status"></img>
+                    <img className="StatusBadge"  src="https://status.neotron.io/api/badge/6/status"></img>
                     <br />
                     <a href="https://flix.neotron.io" target="_blank">
                         <button>Media Server ( Restricted Access )</button>
                     </a>
-                    <img className="StatusBadge"  src="http://192.168.2.31:3001/api/badge/7/status"></img>
+                    <img className="StatusBadge"  src="https://status.neotron.io/api/badge/7/status"></img>
                 </div>
                 <div className="ServerInfo">
                     <div className="left">
