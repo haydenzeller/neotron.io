@@ -42,18 +42,21 @@ function Home() {
                 </div>
                 <div className="links">
                     <h2><span className="Underline">Services</span></h2>
-                    <p><a href="https://status.neotron.io">Click here for uptime status</a></p>
+                    <p><a href="https://status.neotron.io" target="_blank">Click here for uptime status</a></p>
                     <a href="https://search.neotron.io" target="_blank">
-                        <button>SearXNG ( Metasearch Engine )</button>
+                        <button>SearXNG ( Metasearch Engine )</button> 
                     </a>
+                    <img className="StatusBadge"  src="http://192.168.2.31:3001/api/badge/1/status"></img>
                     <br />
                     <a href="https://yt.neotron.io" target="_blank">
                         <button>Invidious ( Youtube Client )</button>
                     </a>
+                    <img className="StatusBadge"  src="http://192.168.2.31:3001/api/badge/6/status"></img>
                     <br />
                     <a href="https://flix.neotron.io" target="_blank">
                         <button>Media Server ( Restricted Access )</button>
                     </a>
+                    <img className="StatusBadge"  src="http://192.168.2.31:3001/api/badge/7/status"></img>
                 </div>
                 <div className="ServerInfo">
                     <div className="left">
